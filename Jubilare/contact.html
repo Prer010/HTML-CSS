@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=My+Soul&family=Yesteryear&display=swap" rel="stylesheet">
+    
+    <style>
+         .yesteryear-regular {
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+        body {
+            background-color: #ffe9e3;
+        }
+.container {
+    display : grid;
+    grid-template-columns: auto auto;
+    gap : 0px;
+    align-items: center;
+}
+        .contact {
+            display : flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: left;
+            padding-right : 40px;
+        }
+
+        .image {
+            align-items: center;
+        }
+        img {
+            height : 100vh;
+            margin-left: 30px;
+        }
+
+        button {
+            background-color : #dfd3c3;
+            padding : 20px;
+            border-radius: 10%;
+        }
+
+        footer {
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding : 50px;
+ }
+
+ .logo {
+    font-size : 45px;
+    justify-content: center;
+  }
+
+ footer a {
+    font-size: 20px;;
+    text-decoration: none;
+    color : black;
+ }
+
+ .end2 {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .svgdiv {
+    display : flex;
+ }
+
+ .svg {
+    height : 50px;
+    width : 50px;
+    margin-left : 0px;
+ }
+
+ .twitter {
+    height : 40px;
+ }
+
+ @media (max-width : 900px)
+ {
+    img {
+        height : 50vh;
+        width : 40vw;
+    }
+ }
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class = "image"><img src = "./images/Corporate event design.jpeg"></div>
+    <div class = "contact">
+    <h1>Contact Us</h1>
+    <input placeholder="Name">
+    <br>
+    <input placeholder="Email">
+    <br>
+    <input placeholder="Phone Number">
+    <br>
+    <input placeholder="Event Dates">
+    <br>
+    <input placeholder="Event Location">
+    <br>
+    <input placeholder="Estimated Guest Count">
+    <br>
+    <input placeholder="More Details About Your Event">
+    <br>
+    <button>SUBMIT</button>
+</div>
+
+
+</div>
+
+<footer><div>© 2024</div>
+    <div class = "logo yesteryear-regular">Jubilare</div>
+    <div class = "end2"><a href = "#">About</a><br>
+    <a href = "#">Contact</a><br><br>
+    
+    <div class = "svgdiv"><img src = "./images/icons8-facebook.svg" class = "svg">
+        <img src = "./images/icons8-instagram.svg" class = "svg">
+        <img src = "./images/icons8-twitterx.svg" class = "svg twitter"></div>
+
+    <div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,196 @@
+ body {
+  background-color : #ffe9e3 ;
+ }
+
+ .yesteryear-regular {
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .my-soul-regular {
+    font-family: "My Soul", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.cormorant {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+  .container {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    width : 100vw;
+    gap : 15px;
+  }
+  
+  nav {
+    display : flex;
+    flex-direction: column;
+align-items: center;  
+justify-content: center;
+gap : 10px;
+background-color: white;
+height : 130px;
+width : 100vw;
+}
+  
+  .logo {
+    font-size : 45px;
+    justify-content: center;
+  }
+
+  .menu {
+    display : flex;
+    gap : 50px;
+    text-decoration: none;
+    color : black;
+    padding-bottom : 10px;
+    font-size: 20px ;
+  }
+
+  .first-container {
+    display : flex;
+    flex-direction: row;
+    gap : 20px;
+    padding-top : 20px;
+  }
+
+  .first-container h2 {
+    font-size : 50px;
+    text-align: center;
+  }
+
+  .first-container p {
+    font-style: italic;
+ }
+
+  .second-container {
+    display : flex;
+    flex-direction: row;
+    gap : 20px;
+  }
+
+
+ .second-container h2 {
+    font-size : 60px;
+    padding : 20px;
+  }
+
+ .third-container {
+    display : flex;
+    flex-direction: row;
+    gap : 20px;
+  }
+
+
+ .third-container h2 {
+    font-size : 60px;
+    text-align: right;
+    padding : 20px;
+  }
+
+
+ .fourth-container {
+    display : flex;
+    flex-direction: row;
+    gap : 20px;
+  }
+
+ .fourth-container h2 {
+    font-size : 60px;
+    text-align: left;
+    padding : 20px;
+  }
+
+ p {
+    font-size: 20px;
+    font-style: italic;
+ }
+
+  img {
+    height : 400px;
+    width : 45vw;
+    border-radius: 10%;
+  }
+
+  .text {
+    background-color: #dfd3c3;
+    width : 45vw;
+    padding : 0px 55px;
+ }
+
+ .end {
+  padding : 100px 0px;
+ }
+
+ .end h2 {
+    font-size: 40px;
+   text-align: center;
+ }
+
+ footer {
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding : 50px;
+    width : 100vw;
+ }
+
+ footer a {
+    font-size: 20px;;
+    text-decoration: none;
+    color : black;
+ }
+
+ .end2 {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .svgdiv {
+    display : flex;
+ }
+
+ .svg {
+    height : 50px;
+    width : 50px;
+ }
+
+ .twitter {
+    height : 40px;
+ }
+ @media(max-width : 900px)
+ {
+    .menu {
+    gap : 30px;;
+    }
+    .first-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .third-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fourth-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+img {
+    border-radius: 0%;
+    width : 90vw;
+}
+.text {
+    width : 80vw;
+}
+ }
